@@ -38,7 +38,7 @@
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
-<h3>PROGRAM</h3>
+<h3>PROGRAM:</h3>
 import random
 import time
 class Thing: 
@@ -230,7 +230,7 @@ if   __name__ == "__main__":
         print("AgentLocation : {0}".format(agent.location)) 
         print("Performance : {0}".format(agent.performance)) 
         time.sleep(3)
-  <h3>OUTPUT</h3>
+  <h3>OUTPUT:</h3>
 	Status of patients in rooms before treatment
 {(0, 0): 'unhealthy', (1, 0): 'healthy'}
 AgentLocation : (1, 0)
@@ -248,6 +248,6 @@ medicine prescribed: paracetamol and anti-biotic(low dose)
 AgentLocation : (0, 0)
 Performance : 9
 
-<h3>RESULT</h3>
+<h3>RESULT:</h3>
 Thus,an AI agent is developed.
 
